@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-17T12:44:21 AEST" name="Default suite" finished-at="2020-09-17T12:45:37 AEST" duration-ms="76487">
+    <groups>
+    </groups>
+    <test started-at="2020-09-17T12:44:21 AEST" name="Default test" finished-at="2020-09-17T12:45:37 AEST" duration-ms="76487">
+      <class name="com.australianopen.android.tests.AndroidPOCTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.australianopen.android.tests.AndroidPOCTest@3cfdd820]" started-at="2020-09-17T12:44:21 AEST" name="beforeSuite" finished-at="2020-09-17T12:44:21 AEST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUpDriver()[pri:0, instance:com.australianopen.android.tests.AndroidPOCTest@3cfdd820]" started-at="2020-09-17T12:44:21 AEST" name="setUpDriver" finished-at="2020-09-17T12:44:43 AEST" duration-ms="21644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method signature="TC001_verifyFavouriteFunctionality(java.lang.reflect.Method)[pri:0, instance:com.australianopen.android.tests.AndroidPOCTest@3cfdd820]" started-at="2020-09-17T12:44:43 AEST" name="TC001_verifyFavouriteFunctionality" finished-at="2020-09-17T12:45:35 AEST" duration-ms="52057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.australianopen.android.tests.AndroidPOCTest.TC001_verifyFavouriteFunctionality(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_verifyFavouriteFunctionality -->
+        <test-method is-config="true" signature="afterEveryTestEnds(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:com.australianopen.android.tests.AndroidPOCTest@3cfdd820]" started-at="2020-09-17T12:45:35 AEST" name="afterEveryTestEnds" finished-at="2020-09-17T12:45:37 AEST" duration-ms="2759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_verifyFavouriteFunctionality status=SUCCESS method=AndroidPOCTest.TC001_verifyFavouriteFunctionality(java.lang.reflect.Method)[pri:0, instance:com.australianopen.android.tests.AndroidPOCTest@3cfdd820] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.australianopen.android.tests.AndroidPOCTest.TC001_verifyFavouriteFunctionality(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEveryTestEnds -->
+      </class> <!-- com.australianopen.android.tests.AndroidPOCTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
